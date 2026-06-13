@@ -94,11 +94,11 @@ if(userEmailLower.includes("@") && userEmailLower.includes('.')){
  
  let count = 0;
  for(let w of word3){
-    if (w == 'JavaScript'){
+    if(w == 'JavaScript'){
         count++
     }
 }
-    console.log('Total word = ${word3.length}, Total characters = ${chars.length}, JavaScript appears = ${count}');
+console.log(`Total word = ${word3.length}, Total characters = ${chars.length},JavaScript appears = ${count}`);
     
  
 
